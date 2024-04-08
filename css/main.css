@@ -1,0 +1,81 @@
+.intro__container {
+    background-color: #fefaf5;
+    display: flex;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .intro__header {
+    margin-top: 6.25rem;
+    margin-left: 5rem;
+    width: 35rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #335576;
+    display: flex;
+    flex-direction: column;
+  }
+  .intro__description {
+    width: 45rem;
+    margin-top: 1.875rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #335576;
+  }
+  .intro__img {
+    margin: 4.125rem;
+    margin-left: 10rem;
+    width: 25rem;
+  }
+  .intro__button {
+    background-color: #db7a4e;
+    color: #ffffff;
+    font-size: 1.313rem;
+    font-weight: 300;
+    margin-top: 1.875rem;
+    padding: 0.625rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width: 12.5rem;
+    border: none;
+    text-align: center;
+    border-radius: 2.5rem;
+  }
+  .travel__container {
+    background-color: #ffffff;
+    padding: 6.25rem;
+  }
+  .travel__header {
+    width: auto;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-bottom: 2.5rem;
+    color: #335576;
+  }
+  .travel__cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .travel__card--landing {
+    border:0.063rem solid rgba(2, 0, 0, 0.2);
+  }
+  .shadow{
+    box-shadow: 0rem 0.25rem 0.25rem rgba(2, 0, 0, 0.2);
+  }
+  .travel__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3125rem;
+  }
+  .travel__text {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  

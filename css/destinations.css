@@ -1,0 +1,60 @@
+.activities {
+    padding: 0% 5%;
+    background: #e7e6e5;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  .activities--hawaii {
+    background-image: url("../assets/Images/hawaii.jpg");
+  }
+  .activities--iceland {
+    background-image: url("../assets/Images/iceland.jpg");
+  }
+  .activities--greece {
+    background-image: url("../assets/Images/greece.jpg");
+  }
+  .activities__container {
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+  }
+  .activities__title {
+    font-size: 5rem;
+    margin-bottom: 3.75rem;
+    color: #ffffff;
+  }
+  .activities__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .travelsite__card--activities {
+    padding: 1.25rem;
+  }
+  .activities__card-title {
+    font-family: "Overpass", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+    width: auto;
+  }
+  .activities__divider {
+    border-top: 0.125rem solid black;
+  }
+  .activities__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+  }
+  .activities__item {
+    font-size: 1.25rem;
+    text-align: center;
+    width: auto;
+    margin-top: 1.25rem;
+    background-color: #FEFAF5;
+    padding: 0.4375rem;
+  }
+  

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carol-Zhu-Travelsite</title>
+    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+  <nav class="nav">
+    <a href="./index.html" class="nav__header link">Travel Site</a>
+    <ul class="nav__links">
+      <li class="nav__link">
+        <a href="./index.html" class="link link--current">Home</a>
+      </li>
+      <li class="nav__link">
+        <a href="./pages/hawaii.html" class="link">Hawaii</a>
+      </li>
+      <li class="nav__link">
+        <a href="./pages/iceland.html" class="link">Iceland</a>
+      </li>
+      <li class="nav__link">
+        <a href="./pages/greece.html" class="link">Greece</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="intro__container">
+    <h1 class="intro__header">
+      Travelling Comes With Endless Discoveries
+      <p class="intro__description">
+        Don't let your dreams be just dreams. Experience the world by booking
+        a vacation with us now.<br/>
+        <button class="intro__button">Get started</button>
+      </p>
+    </h1>
+    <div>
+        <img class="intro__img" src="./assets/Images/hero.png" alt="hero image"/>
+    </div>
+  </section>
+
+  <section class="travel__container">
+    <h2 class="travel__header">Recommendations</h2>
+    <div class="travel__cards">
+      <div class="travelsite__card travelsite__card--landing shadow">
+        <a href="./pages/hawaii.html">
+          <img class="travel__img shadow" src="./assets/Images/hawaii.jpg" alt="Hawaii" href="./pages/hawaii.html"/>
+        </a>
+        <a href="./pages/hawaii.html" class="travel__text link">Hawaii</a>
+      </div>
+      <div class="travelsite__card travelsite__card--landing">
+        <a href="./pages/iceland.html">
+          <img class="travel__img shadow"src="./assets/Images/iceland.jpg"alt="Iceland"href="./pages/iceland.html"/>
+        </a>
+        <a href="./pages/iceland.html" class="travel__text link">Iceland</a>
+      </div>
+      <div class="travelsite__card travelsite__card--landing">
+        <a href="./pages/greece.html">
+            <img class="travel__img shadow" src="./assets/Images/greece.jpg" alt="Hawaii" href="./pages/greece.html"/>
+        </a>
+        <a href="./pages/greece.html" class="travel__text link">Greece</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer__container">
+    <div class="footer__cards">
+        <div class="footer__card">
+          <h2 class="footer__title">Contact</h2>
+          <div class="footer__info">
+            <span class="footer__subtitle">Email</span><br />
+            <a class="footer__email link" href ="mailto:info@TravelSite.com:">info@travelsite.com</a>
+          </div>
+        </div>
+        <div class="footer__card">
+          <h2 class="footer__title">Hours</h2>
+          <div class="footer__cards">
+            <div class="footer__info">
+              <span class="footer__subtitle">Monday - Friday</span><br />
+              <p>9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="footer__info">
+              <span class="footer__subtitle">Saturday</span><br />
+              <p>10:00 AM - 4:00 PM</p>
+            </div>
+            <div class="footer__info">
+              <span class="footer__subtitle">Sunday</span><br />
+              <p>Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__card">
+          <h2 class="footer__title footer__title--social">Social</h2>
+          <br />
+          <a class="footer__link link" href="#">
+            <img class="footer__img" src="./assets/Icons/icon-instagram.png" alt="facebook"/>
+          </a>
+          <a class="footer__link link" href="#">
+            <img class="footer__img footer__img--fb" src="./assets/Icons/icon-facebook.png" alt="yelp"/>
+          </a>
+          <a class="footer__link link" href="#">
+            <img class="footer__img" src="./assets/Icons/icon-twitter.png" alt="instagram"/>
+          </a>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>

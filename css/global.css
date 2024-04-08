@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Verdana;
+  }
+  .body{
+    width: 80rem;
+  }
+  .link {
+      text-decoration: none;
+      color: #0a131b;
+      box-shadow: none;
+  }
+  .link--current {
+    padding-bottom: 0.5rem;
+    border-bottom: 0.25rem solid #DB7A4E;
+  }
+  .nav {
+    background-color: #ffffff;
+    display: flex;
+    width: 80rem;
+    padding: 1.25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    position: fixed;
+  }
+  .nav__header {
+    width: 25rem;
+    color: #335576;
+    font-weight: bold;
+    font-size: 1.25rem;
+    display:flex;
+    justify-content: flex-start;
+  }
+  .nav__links {
+    display: flex;
+    list-style: none;
+    width: 42.5rem;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .nav__link {
+    width: auto;
+    color: #151616;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-left: 1.25rem;
+    list-style-type: none;
+  }
+  .travelsite__card {
+    background: #ffffff;
+    width: 15.625rem;
+    height: 21.875rem;
+    background: #ffffff;
+    border-radius: 0.3125rem;
+    position: relative;
+  }
+  .footer__container {
+    background-color: #FEFAF5;
+    color: #335576;
+    padding: 3.75rem;
+  }
+  .footer__cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer__card {
+    font-size: 1.3125rem;
+  }
+  .footer__title {
+    font-size: 2.0625rem;
+    font-weight: 550;
+    margin-bottom: 1.25rem;
+  }
+  .footer__info {
+    width: auto;
+    font-size: 1.25rem;
+    justify-content: space-evenly;
+    font-weight: light;
+    margin-right: 2.5rem;
+  }
+  .footer__subtitle {
+    color: #DB7A4E;
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+  }
+  .footer__email{
+    color: #335576;
+  }
+  .footer__text {
+    font-size: 1.125rem;
+    font-weight: 400;
+    display: flex;
+  }
+  .footer__title--social{
+    margin-bottom: 1.563rem;
+  }
+  .footer__link {
+    margin-right: 2.5rem;
+  }
+  .footer__img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+  .footer__img--fb {
+    width:0.9375rem;
+  }
+  
